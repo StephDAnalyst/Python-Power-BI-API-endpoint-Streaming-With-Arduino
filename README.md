@@ -23,7 +23,7 @@ Install PySerial:
 
 `pip install pyserial`
 
-Run the script (`TempHum.py`) to read Arduino data from COM4.
+Run the script (`PythonSerialRead.py`) to read Arduino data from COM4.
 
 ### 3️⃣ Set Up Power BI Streaming Dataset
 Open Power BI Service → Go to Workspace → Search for Streaming Dataset.
@@ -40,7 +40,7 @@ Install the requests library:
 
 `pip install requests`
 
-Edit the script (TemHum.py) and update it with your Power BI Push URL.
+Edit the script (PythonPowerBiApi.py) and update it with your Power BI Push URL.
 
 Run the script to start streaming data
 
